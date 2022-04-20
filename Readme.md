@@ -113,7 +113,6 @@ const btn=document.getElementById("bottone")
 let contaClick=0       // globale
 
 // --- FUNCTIONs
-
 let stampaMessaggio2  = () => {
   console.log("Funzione stampaMessaggio2 : hai cliccato")
 }
