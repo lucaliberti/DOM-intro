@@ -108,5 +108,10 @@ btn.addEventListener( 'click' , () => {
  - Accensione lampadina 2 [Esempio 43.02](Examples/40_listeners/43.02_lampadinaOnOff_Button)
  - Accenzsione lampadina 3 [Esempio 43.03](Examples/40_listeners/43.03_lampadinaOnOff)
  - Bottone che si sposta [Esempio 44](Examples/40_listeners/44.Moving_Button)
+ - Casella di testp [Esempio 45](Examples/40_listeners/40_listeners/45.01_Input/)
+   Per ulteriori informazioni riguardo gli eventi disponibili su una una casella di testo 
+   vedi [qui](https://it.javascript.info/events-change-input)
+
+
   
 
