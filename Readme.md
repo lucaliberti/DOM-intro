@@ -22,7 +22,7 @@ Includere del codice JS all'interno del documento
 ```
 
 ### Esempi
-  - Vedi [Esempio 12](Examples/10_Intro/12_includere_js_in_un_documento)
+  - Includere codice JS im un documento [Esempio 12](Examples/10_Intro/12_includere_js_in_un_documento)
 
 
 ## 02- Inziare ad utilizzare JS
@@ -35,10 +35,12 @@ Includere del codice JS all'interno del documento
 ## 03- Costruire un element mediante il linguaggio JS
 
 ```javascript
+  // Creo l'elemento
   const element=document.createElement("div")
   element.innerText="Ciao sono una DIV" 
   element.style.background="gray"
 
+  // Inserisci l'elemento nel documento
   document.body.appendChild(element)
   console.log(window.document.body)
 ```
@@ -58,22 +60,16 @@ Principali Selectors
   
 ### Esempi 
   - Impiego del metodo "document.getElementById()"  [Esempio 31](Examples/30_selector/31_getElementByID)
-  - Impiego del metodo "document.getElementsByClassName()"  [Esempio 31](Examples/30_selector/32_getElementByClassName)
+  - Impiego del metodo "document.getElementsByClassName()"  [Esempio 32](Examples/30_selector/32_getElementByClassName)
 
 
 ## 05- Listeners ed Eventi
-Principali Selectors
-  - document.getElementById()
-  - document.getElementsByClassName()
-  - document.querySelector()
-  - document.querySelectorAll()
 
 ```javascript
 
 // --- GLOBAL VARs
 const btn=document.getElementById("bottone")
 let contaClick=0       // globale
-
 
 // --- FUNCTIONs
 function stampaMessaggio(){
@@ -85,9 +81,7 @@ let stampaMessaggio2  = () => {
   console.log("Funzione stampaMessaggio2 : hai cliccato")
 }
 
-
 // --- MAIN
-
 // modo1 aggiunta di un listener utilizzando una funzione definita in modo classico
 btn.addEventListener( 'click' , stampaMessaggio  )
 
@@ -102,11 +96,11 @@ btn.addEventListener( 'click' , () => {
 ```
   
 ### Esempi
- - [Esempio 41](Examples/40_listeners/41_creazione_listener)
- - [Esempio 42](Examples/40_listeners/42_bottone_alert)
- - [Esempio 43.01](Examples/40_listeners/43.01_lampadina_simple)
- - [Esempio 43.02](Examples/40_listeners/43.02_lampadinaOnOff_Button)
- - [Esempio 43.03](Examples/40_listeners/43.03_lampadinaOnOff)
- - [Esempio 44](Examples/40_listeners/44.Moving_Button)
+ - Creazione di un listener [Esempio 41](Examples/40_listeners/41_creazione_listener)
+ - Bottone alert [Esempio 42](Examples/40_listeners/42_bottone_alert)
+ - Accensione lampatina 1 [Esempio 43.01](Examples/40_listeners/43.01_lampadina_simple)
+ - Accensione lampadina 2 [Esempio 43.02](Examples/40_listeners/43.02_lampadinaOnOff_Button)
+ - Accenzsione lampadina 3 [Esempio 43.03](Examples/40_listeners/43.03_lampadinaOnOff)
+ - Bottone che si sposta [Esempio 44](Examples/40_listeners/44.Moving_Button)
   
 
