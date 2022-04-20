@@ -123,7 +123,7 @@ let stampaMessaggio2  = () => {
 
 // modo3 aggiunta di un listener utilizzanto una arrow anonymous function
 btn.addEventListener( 'click' , () => {
-  console.log("Funzione stampaMessaggio2 : hai cliccato")
+  console.log("Anonymous function : hai cliccato")
 })
 
 ```
