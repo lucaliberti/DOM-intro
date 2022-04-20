@@ -70,6 +70,7 @@ Principali Selectors
 
 
 ## 05- Listeners ed Eventi
+Il modo più semplice per aggiungere un listener è il seguente
 
 ```javascript
 
@@ -83,23 +84,12 @@ function stampaMessaggio(){
   contaClick++
 }
 
-let stampaMessaggio2  = () => {
-  console.log("Funzione stampaMessaggio2 : hai cliccato")
-}
 
 // --- MAIN
 // modo1 aggiunta di un listener utilizzando una funzione definita in modo classico
 btn.addEventListener( 'click' , stampaMessaggio  )
-
-// modo2 aggiunta di un listener utizzando una arrow function
- btn.addEventListener( 'click' , stampaMessaggio2  )
-
-// modo3 aggiunta di un listener utilizzanto una arrow anonymous function
-btn.addEventListener( 'click' , () => {
-  console.log("Funzione stampaMessaggio2 : hai cliccato")
-})
-
 ```
+  
   
 ### Esempi
  - Creazione di un listener [Esempio 41](Examples/40_listeners/41_creazione_listener)
@@ -112,6 +102,32 @@ btn.addEventListener( 'click' , () => {
    Per ulteriori informazioni riguardo gli eventi disponibili su una una casella di testo 
    vedi [qui](https://it.javascript.info/events-change-input)
 
+  
+### Modi Alternativi per definire un Listener  
+Esistono i seguenti modi alternativi:
 
+```javascript
+
+// --- GLOBAL VARs
+const btn=document.getElementById("bottone")
+let contaClick=0       // globale
+
+// --- FUNCTIONs
+
+let stampaMessaggio2  = () => {
+  console.log("Funzione stampaMessaggio2 : hai cliccato")
+}
+
+// --- MAIN
+// modo2 aggiunta di un listener utizzando una arrow function
+ btn.addEventListener( 'click' , stampaMessaggio2  )
+
+// modo3 aggiunta di un listener utilizzanto una arrow anonymous function
+btn.addEventListener( 'click' , () => {
+  console.log("Funzione stampaMessaggio2 : hai cliccato")
+})
+
+```
+ 
   
 
