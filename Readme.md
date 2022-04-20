@@ -22,7 +22,7 @@ Includere del codice JS all'interno del documento
 ```
 
 ### Esempi
-  - Includere codice JS im un documento [Esempio 12](Examples/10_Intro/12_includere_js_in_un_documento)
+  - Includere codice JS in un documento [Esempio 12](Examples/10_Intro/12_includere_js_in_un_documento)
 
 
 ## 02- Inziare ad utilizzare JS
@@ -98,7 +98,7 @@ btn.addEventListener( 'click' , () => {
 ### Esempi
  - Creazione di un listener [Esempio 41](Examples/40_listeners/41_creazione_listener)
  - Bottone alert [Esempio 42](Examples/40_listeners/42_bottone_alert)
- - Accensione lampatina 1 [Esempio 43.01](Examples/40_listeners/43.01_lampadina_simple)
+ - Accensione lampadina 1 [Esempio 43.01](Examples/40_listeners/43.01_lampadina_simple)
  - Accensione lampadina 2 [Esempio 43.02](Examples/40_listeners/43.02_lampadinaOnOff_Button)
  - Accenzsione lampadina 3 [Esempio 43.03](Examples/40_listeners/43.03_lampadinaOnOff)
  - Bottone che si sposta [Esempio 44](Examples/40_listeners/44.Moving_Button)
