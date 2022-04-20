@@ -27,7 +27,7 @@ Includere del codice JS all'interno del documento
 
 ## 02- Inziare ad utilizzare JS
 ### Esempi Introduttivi
-  - il metodo console.log()  [Esempio 14](Examples/10_Intro/14_console_log)    <<<   //FIXME
+  - il metodo console.log()  [Esempio 14](Examples/10_Intro/14_console_log)   
   - Il metodo window.alert() [Esempio 13](Examples/10_Intro/13_alert)
 
   
@@ -57,10 +57,9 @@ Principali Selectors
 
   
 ### Esempi 
+  - Impiego del metodo "document.getElementById()"  [Esempio 31](Examples/30_selector/31_getElementByID)
+  - Impiego del metodo "document.getElementsByClassName()"  [Esempio 31](Examples/30_selector/32_getElementByClassName)
 
-```javascript
-  
-```
 
 ## 05- Listeners ed Eventi
 Principali Selectors
@@ -69,7 +68,45 @@ Principali Selectors
   - document.querySelector()
   - document.querySelectorAll()
 
+```javascript
+
+// --- GLOBAL VARs
+const btn=document.getElementById("bottone")
+let contaClick=0       // globale
+
+
+// --- FUNCTIONs
+function stampaMessaggio(){
+  console.log("Hai cliccato " + contaClick + " volte" )
+  contaClick++
+}
+
+let stampaMessaggio2  = () => {
+  console.log("Funzione stampaMessaggio2 : hai cliccato")
+}
+
+
+// --- MAIN
+
+// modo1 aggiunta di un listener utilizzando una funzione definita in modo classico
+btn.addEventListener( 'click' , stampaMessaggio  )
+
+// modo2 aggiunta di un listener utizzando una arrow function
+ btn.addEventListener( 'click' , stampaMessaggio2  )
+
+// modo3 aggiunta di un listener utilizzanto una arrow anonymous function
+btn.addEventListener( 'click' , () => {
+  console.log("Funzione stampaMessaggio2 : hai cliccato")
+})
+
+```
   
 ### Esempi
- - Creazione di un elemento "div" [Esempio 21](Examples/20_creazione_elemento/21_crea_elemento)
+ - [Esempio 41](Examples/40_listeners/41_creazione_listener)
+ - [Esempio 42](Examples/40_listeners/42_bottone_alert)
+ - [Esempio 43.01](Examples/40_listeners/43.01_lampadina_simple)
+ - [Esempio 43.02](Examples/40_listeners/43.02_lampadinaOnOff_Button)
+ - [Esempio 43.03](Examples/40_listeners/43.03_lampadinaOnOff)
+ - [Esempio 44](Examples/40_listeners/44.Moving_Button)
   
+
