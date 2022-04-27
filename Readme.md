@@ -150,7 +150,8 @@ btn.addEventListener( 'click' , () => {
   
 
 ## 06- Eseguire funzioni ad intervalli regolari o in un tempo futuro
-La funzione "setInterval()" permette di eseguire una funzione ad intervalli 
+La funzione "setInterval()" permette di eseguire una funzione ad intervalli regolari. 
+Il valore numerico è espresso in millisecondi.
 ```javascript
   setInterval( miaFunzione , 1000);
 ```
