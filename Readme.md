@@ -26,7 +26,9 @@ Includere del codice JS all'interno del documento
 ```HTML
     <script defer src="js/script.js"></script> 
 ```
-    
+
+Riferimenti [Documentazione](https://it.javascript.info/hello-world)
+  
 ### Esempi
 ```HTML
 <!DOCTYPE html>
@@ -82,6 +84,7 @@ Principali Selectors
   - document.querySelector()
   - document.querySelectorAll()
 
+Riferimenti [Documentazione](https://it.javascript.info/searching-elements-dom)
   
 ### Esempi 
   - Impiego del metodo "document.getElementById()"  [Esempio 31](Examples/30_selector/31_getElementByID)
