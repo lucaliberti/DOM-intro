@@ -150,18 +150,24 @@ btn.addEventListener( 'click' , () => {
   
 
 ## 06- Eseguire funzioni ad intervalli regolari o in un tempo futuro
+
+### Il metodo setInterval()
 La funzione "setInterval()" permette di eseguire una funzione ad intervalli regolari. 
-Il valore numerico è espresso in millisecondi.
 ```javascript
   setInterval( miaFunzione , 1000);
 ```
-La funzione "setTimeout()" permette di eseguire una funzione una sola volta nel futoro 
+Il valore numerico è espresso in millisecondi.
 
+Riferimenti [Documentazione](https://it.javascript.info/settimeout-setinterval)
+
+### Il metodo setTimeout()
+La funzione "setTimeout()" permette di eseguire una funzione una sola volta nel futoro 
 
 ```javascript
    setTimeout( miaFunzione , 1000);
 ```
- 
+Il valore numerico è espresso in millisecondi.
+
 Riferimenti [Documentazione](https://it.javascript.info/settimeout-setinterval)
 
 ### Esempi
