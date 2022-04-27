@@ -156,7 +156,7 @@ btn.addEventListener( 'click' , () => {
 La funzione "setInterval()" permette di eseguire una funzione ad intervalli regolari. 
 
 ```javascript
-  myInterval=setInterval( miaFunzione , 1000);
+  const myInterval=setInterval( miaFunzione , 1000);
 ```
 L'intervallo temporale è espresso in millisecondi.
 
