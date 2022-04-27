@@ -110,7 +110,7 @@ function stampaMessaggio(){
 btn.addEventListener( 'click' , stampaMessaggio  )
 ```
 
-Riferimenti [Documentazione](https://it.javascript.info/introduction-browser-events)
+Riferimenti relativa agli eventi predefiniti di un browser [Documentazione](https://it.javascript.info/introduction-browser-events)
 
   
 ### Esempi
