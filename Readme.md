@@ -71,7 +71,7 @@ Esempi completi:
 ```
 
 ### Esempi  
-  - Creazione di un elemento "div" [Esempio 21](Examples/20_creazione_elemento/21_crea_elemento)
+  - Creazione di un elemento "div" utilizzando codice JS [Esempio 21](Examples/20_creazione_elemento/21_crea_elemento)
 
 
  
