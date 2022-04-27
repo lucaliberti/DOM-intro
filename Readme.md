@@ -67,7 +67,7 @@ Esempi completi:
   element.innerText="Ciao sono una DIV" 
   element.style.background="gray"
 
-  // Inserisci l'elemento nel documento
+  // Inserisco l'elemento nel documento
   document.body.appendChild(element)
   console.log(window.document.body)
 ```
