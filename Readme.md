@@ -20,7 +20,7 @@
   * [Il metodo setTimeout()](#il-metodo-settimeout--)
   * [Esempi](#esempi-5)
 
-
+---
 ## 01- Creazione della struttura
 Includere del codice JS all'interno del documento
 ```HTML
@@ -49,14 +49,14 @@ Includere del codice JS all'interno del documento
 Esempi completi:
   - Includere codice JS in un documento [Esempio 12](Examples/10_Intro/12_includere_js_in_un_documento)
 
-
+---
 ## 02- Inziare ad utilizzare JS
 ### Esempi Introduttivi
   - il metodo console.log()  [Esempio 14](Examples/10_Intro/14_console_log)   
   - Il metodo window.alert() [Esempio 13](Examples/10_Intro/13_alert)
 
   
-  
+--- 
 ## 03- Costruire un element mediante il linguaggio JS
 
 ```javascript
@@ -74,7 +74,7 @@ Esempi completi:
   - Creazione di un elemento "div" utilizzando codice JS [Esempio 21](Examples/20_creazione_elemento/21_crea_elemento)
 
 
- 
+--- 
 ## 04- Selectors
 Principali Selectors
   - document.getElementById()
@@ -87,7 +87,7 @@ Principali Selectors
   - Impiego del metodo "document.getElementById()"  [Esempio 31](Examples/30_selector/31_getElementByID)
   - Impiego del metodo "document.getElementsByClassName()"  [Esempio 32](Examples/30_selector/32_getElementByClassName)
 
-
+---
 ## 05- Listeners ed Eventi
 Il modo più semplice per aggiungere un listener è il seguente
 
@@ -149,7 +149,7 @@ btn.addEventListener( 'click' , () => {
 
 ```
  
-  
+---  
 ## 06- Eseguire funzioni ad intervalli regolari o in un tempo futuro
 
 ### Il metodo setInterval()
