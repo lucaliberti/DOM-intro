@@ -21,6 +21,7 @@
   * [Il metodo setTimeout()](#il-metodo-settimeout--)
   * [Esempi](#esempi-5)
 
+
 ## 01- Creazione della struttura
 Includere del codice JS all'interno del documento
 ```
@@ -45,7 +46,6 @@ Includere del codice JS all'interno del documento
 </body>
 </html>
 ```
-
 
 Esempi completi:
   - Includere codice JS in un documento [Esempio 12](Examples/10_Intro/12_includere_js_in_un_documento)
@@ -109,7 +109,9 @@ function stampaMessaggio(){
 // modo1 aggiunta di un listener utilizzando una funzione definita in modo classico
 btn.addEventListener( 'click' , stampaMessaggio  )
 ```
-  
+
+Riferimenti [Documentazione](https://it.javascript.info/introduction-browser-events)
+
   
 ### Esempi
  - Creazione di un listener [Esempio 41](Examples/40_listeners/41_creazione_listener)
