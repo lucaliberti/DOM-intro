@@ -59,7 +59,7 @@ Esempi completi:
 
   
 --- 
-## 03- Costruire un element mediante il linguaggio JS
+## 03- Modificare un documento con il linguaggio JS
 
 ```javascript
   // Creo l'elemento
@@ -71,6 +71,7 @@ Esempi completi:
   document.body.appendChild(element)
   console.log(window.document.body)
 ```
+Riferimenti [Documentazione](https://it.javascript.info/modifying-document)
 
 ### Esempi  
   - Creazione di un elemento "div" utilizzando codice JS [Esempio 21](Examples/20_creazione_elemento/21_crea_elemento)
