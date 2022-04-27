@@ -165,7 +165,7 @@ Per eliminare il timer
    clearInterval(myInterval);
 ```
 
-Riferimenti [Documentazione](https://it.javascript.info/settimeout-setinterval)
+> Riferimenti [Documentazione](https://it.javascript.info/settimeout-setinterval)
 
 ### Esempi
  - Utilizzo basilare metodo setInterval() 
