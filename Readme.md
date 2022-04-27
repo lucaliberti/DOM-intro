@@ -161,7 +161,7 @@ Il valore numerico è espresso in millisecondi.
 Riferimenti [Documentazione](https://it.javascript.info/settimeout-setinterval)
 
 ### Il metodo setTimeout()
-La funzione "setTimeout()" permette di eseguire una funzione una sola volta nel futoro 
+La funzione "setTimeout()" permette di eseguire una funzione una sola volta nel futuro 
 
 ```javascript
    setTimeout( miaFunzione , 1000);
