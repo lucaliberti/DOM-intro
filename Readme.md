@@ -149,14 +149,20 @@ btn.addEventListener( 'click' , () => {
  
   
 
-## 06- Listeners ed Eventi
-Il modo più semplice per aggiungere un listener è il seguente
-
-
+## 06- Eseguire funzioni ad intervalli regolari o in un tempo futuro
+La funzione "setInterval()" permette di eseguire una funzione ad intervalli 
 ```javascript
   setInterval( miaFunzione , 1000);
 ```
+La funzione "setTimeout()" permette di eseguire una funzione una sola volta nel futoro 
+
+
+```javascript
+   setTimeout( miaFunzione , 1000);
+```
  
+Riferimenti [Documentazione](https://it.javascript.info/settimeout-setinterval)
+
 ### Esempi
  - Utilizzo basilare metodo setInterval() per eseguire una funzione ad intervalli predefiniti
    [Esempio 61](Examples/60_Timers/61_Interval_start)
