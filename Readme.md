@@ -4,21 +4,22 @@
 
 
 ## 00- Indice
-
-- [Introduzione al DOM](#introduzione-al-dom)
-  * [01- Creazione della struttura](#01--creazione-della-struttura)
-    + [Esempi](#esempi)
-  * [02- Inziare ad utilizzare JS](#02--inziare-ad-utilizzare-js)
-    + [Esempi Introduttivi](#esempi-introduttivi)
-  * [03- Costruire un element mediante il linguaggio JS](#03--costruire-un-element-mediante-il-linguaggio-js)
-    + [Esempi](#esempi-1)
-  * [04- Selectors](#04--selectors)
-    + [Esempi](#esempi-2)
-  * [05- Listeners ed Eventi](#05--listeners-ed-eventi)
-    + [Esempi](#esempi-3)
-    + [Modi Alternativi per definire un Listener](#modi-alternativi-per-definire-un-listener)
-
-
+- [01- Creazione della struttura](#01--creazione-della-struttura)
+  * [Esempi](#esempi)
+- [02- Inziare ad utilizzare JS](#02--inziare-ad-utilizzare-js)
+  * [Esempi Introduttivi](#esempi-introduttivi)
+- [03- Costruire un element mediante il linguaggio JS](#03--costruire-un-element-mediante-il-linguaggio-js)
+  * [Esempi](#esempi-1)
+- [04- Selectors](#04--selectors)
+  * [Esempi](#esempi-2)
+- [05- Listeners ed Eventi](#05--listeners-ed-eventi)
+  * [Esempi](#esempi-3)
+  * [Modi Alternativi per definire un Listener](#modi-alternativi-per-definire-un-listener)
+- [06- Eseguire funzioni ad intervalli regolari o in un tempo futuro](#06--eseguire-funzioni-ad-intervalli-regolari-o-in-un-tempo-futuro)
+  * [Il metodo setInterval()](#il-metodo-setinterval--)
+  * [Esempi](#esempi-4)
+  * [Il metodo setTimeout()](#il-metodo-settimeout--)
+  * [Esempi](#esempi-5)
 
 ## 01- Creazione della struttura
 Includere del codice JS all'interno del documento
