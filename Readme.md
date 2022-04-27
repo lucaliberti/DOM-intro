@@ -1,7 +1,6 @@
 
  
-# Introduzione al DOM
-
+# Introduzione al DOM ed alla suam Manipolazione mediante il linguaggio Javascript
 
 ## 00- Indice
 - [01- Creazione della struttura](#01--creazione-della-struttura)
@@ -24,12 +23,12 @@
 
 ## 01- Creazione della struttura
 Includere del codice JS all'interno del documento
-```
+```HTML
     <script defer src="js/script.js"></script> 
 ```
-
+    
 ### Esempi
-```
+```HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
