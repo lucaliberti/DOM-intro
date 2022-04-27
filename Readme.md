@@ -181,8 +181,7 @@ Il valore numerico è espresso in millisecondi.
 
 Riferimenti [Documentazione](https://it.javascript.info/settimeout-setinterval)
 
-
 ### Esempi
- - Utilizzo basilare metodo setTimeout() 
+ - Utilizzo basilare del metodo setTimeout() 
    [Esempio 71](Examples/60_Timers/71_Timeout_alert)
 
