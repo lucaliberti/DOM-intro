@@ -149,3 +149,16 @@ btn.addEventListener( 'click' , () => {
  
   
 
+## 06- Listeners ed Eventi
+Il modo più semplice per aggiungere un listener è il seguente
+
+
+```javascript
+  setInterval( miaFunzione , 1000);
+```
+ 
+### Esempi
+ - Utilizzo basilare metodo setInterval() per eseguire una funzione ad intervalli predefiniti
+   [Esempio 61](Examples/60_Timers/61_Interval_start)
+ - Come disattivare un timer [Esempio 62](Examples/60_Timers/62_Interval_start_stop)
+
